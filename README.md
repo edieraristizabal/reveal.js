@@ -4,4 +4,5 @@
 
 ## Eventos
 
-* [NatRisk2021](/NatHaz2021.html) 
+* [2 International Conference on Natural Hazards and Risk in a Changing World 2021](/NatHaz2021.html) Potsdam (Alemania)
+* [5th World Landslide Forum 2021](/WLF2021.html) Kyoto (Japan)
