@@ -1,0 +1,308 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Landscape Evolution in the Northern Andes</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/Serif.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+
+		<link rel="stylesheet" href="dist/style.css">
+
+	</head>
+	<body>
+
+		<script>
+			setInterval(showTime, 1000);
+			function showTime() {
+				let time = new Date();
+				let hour = time.getHours();
+				let min = time.getMinutes();
+				let sec = time.getSeconds();
+				am_pm = "am";
+	
+				if (hour > 12) {
+					hour -= 12;
+					am_pm = "pm";
+				}
+				if (hour == 0) {
+					hr = 12;
+					am_pm = "am";
+				}
+	
+				hour = hour < 10 ? "0" + hour : hour;
+				min = min < 10 ? "0" + min : min;
+				sec = sec < 10 ? "0" + sec : sec;
+	
+				let currentTime = hour + ":"
+					+ min + ":" + sec + am_pm;
+	
+				document.getElementById("clock")
+					.innerHTML = currentTime;
+			}
+	
+			showTime();
+		</script>
+
+<div class="reveal">
+	<div class="slides">
+	
+		<div id="marca-agua"><img style="border:none;box-shadow:none;width:60px;position:absolute;top:0%;right:0%;"src="https://i.pinimg.com/564x/8a/d1/27/8ad12724bdc797e03a9c4561134fc176.jpg"/><p id="date"></p></div>
+		<!--<div id="lecture" style="font-size:20px;position:absolute;top:100%;right:32%;">Machine Learning (Introducción)</div>-->
+		<div id="clock" style="font-size:20px;position:absolute;top:98%;right:0%;">0:00:00</div>
+		<section data-background-color= "#ffffff"; data-state="primera">
+		  <h1 style="font-size: 50px; color:black">Landscape evolution in the northern Colombian Andes</h1>
+		  <p>
+		  <h4><a href="https://edieraristizabal.github.io/">Edier Aristizábal</a></h4>
+		  </p>
+			<img src="https://i.pinimg.com/564x/f8/5b/28/f85b28f72a65d9c64d8c5e4a7bac57aa.jpg" alt="unal.jpg" width="600"/>
+			<p id="demo" style="position:absolute;top:100%;right:40%;color: gray;"></p>
+			<script>
+			var d = new Date();
+			var months = ["Jan.","Feb.","Mar.","Apr.","May.","Jun.","Jul.","Aug.","Sept.","Oct.","Nov.","Dec."];
+			document.getElementById("demo").innerHTML = months[d.getMonth()] + " " +d.getDate()+" / "+d.getFullYear();
+			</script>
+		</section>
+
+		<section>
+				<section><h1>Intro</h1></section>
+
+					<section>
+						<h3>Transport laws</h3>
+						<p>slope-dependent transport as <b>diffusive</b> because the rate of transport depends on the topographic gradient (solpe).
+						<b>Diffusion-like process </b>tend to reduce relief and fill in local depressions:</p>
+						$q_s=DS^n$
+						<p>Processes for which the upslope drainage area influences rates of sediment transport are considered <b>advective</b> 
+						because the entrained material generally moves along with (and thus is advected by) flows that increase down-stream. 
+						Advective processes tend to incise valleys and create relief:</p>
+						$q_s=KA^mS^n$
+						<p>where S is local channel slope, A is the contributing drainage area that serves as a proxy for
+							local discharge, K is a variable that incorporates incision process–, substrate-, climate-, and
+							hydrology-dependent variables (Whipple, 2004), and m and n are positive constants that
+							are functions of basin hydrology, channel geometry, and specific incision process (Howard et
+							al., 1994; Whipple and Tucker, 1999; Whipple et al., 2000).</p>
+					</section>
+
+					<section>
+						<h3>River profile analysis</h3>
+						<p>Diffusive processes dominate small drainage areas, producing convex rounded hillslopes near drainage divides, 
+							whereas advective processes dominate large drainage areas, producing integrated, concave valley systems.</p>
+
+							<p>The change in channel bed elevation at any
+								point along the longitudinal profile with respect
+								to time, dz/dt, reflects a competition between
+								the rates of rock uplift and channel incision with
+								respect to base level. T</p>
+								$\frac{dz}{dt}=U-E=U-KA^mS^n$
+							<p>where U is the rock uplift rate.</p>
+					</section>
+
+					<section>
+						<h3>River profile analysis</h3>
+						<p>For a steady-state
+							landscape, where river incision rate is equal to
+							the rock uplift rate, dz/dt = 0, and equation can
+							be solved for equilibrium channel slope, S, at a
+							given drainage area, A,</p>
+						<p>Rock uplift (U) = River incision (E) --> steady state</p>
+						
+						<p><b>Flint´s law: </b></p>
+						$S=K_sA^{-\theta}$
+						<p>where ks describes the channel steepness, and
+						   θ describes the channel concavity (the rate of
+						   change of local channel slope as a function of
+						   increasing drainage area; Hack, 1957; Flint,
+						   1974; Tarboton et al., 1989). The coefficient ks
+						   and the exponent θ (m/n) are referred to as the channel
+						   steepness index and channel concavity index,
+						   respectively (Snyder et al., 2000).</p>
+					</section>
+
+					<section>
+						<h3>River profile analysis</h3>
+						$k_s=(\frac{U}{K})^{1/n}$<br>
+						$\theta=m/n$<br>
+						$\frac{dz}{dx}=(\frac{E}{K})^{1/n}A^{-m/n}$<br>
+						$z=(\frac{E}{K(A_0)^m})^{1/n}\chi$<br>
+						$\chi=\int_0^x(\frac{A_0}{A(x)})^{m/n}dx$
+												
+						<p>The slope of the χ‐z plot is $k_s$</p>
+					</section>
+
+					<section>
+						<h3>River basins and river profiles in equilibrium and disequilibrium</h3>
+						<img src="https://www.researchgate.net/profile/Scott-Mccoy/publication/260611497/figure/fig1/AS:601616176648225@1520447882746/River-basins-and-river-profiles-in-equilibrium-and-disequilibrium-A-and-B-Change-in.png" width="700">
+						<figcaption>Fuente: Willett et al. (2014)</figcaption>
+					</section>
+
+					<section>
+						<h3>River basins and river profiles in equilibrium and disequilibrium</h3>
+						<img src="https://agupubs.onlinelibrary.wiley.com/cms/asset/34078441-85ac-439e-bbc6-98c3e7da6995/jgrf20651-fig-0001-m.png" width="600">
+						<figcaption>Fuente: Whipple et al. (2016)</figcaption>
+					</section>
+				</section>
+
+				<section>
+					<section><h1>Profiles E - W</h1></section>
+
+					<section>
+						<img src="images/profile1.png" width="1000">
+						<figcaption></figcaption>
+					</section>
+
+					<section>
+						<img src="images/profile6.png" width="1000">
+						<figcaption></figcaption>
+					</section>
+
+					<section>
+						<img src="images/profile11.png" width="1000">
+						<figcaption></figcaption>
+					</section>
+
+					<section>
+						<img src="images/profile16.png" width="1000">
+						<figcaption></figcaption>
+					</section>
+
+					<section>
+						<img src="images/profile20.png" width="1000">
+						<figcaption></figcaption>
+					</section>
+
+					<section>
+						<img src="images/profile24.png" width="1000">
+						<figcaption></figcaption>
+					</section>
+
+					<section>
+						<img src="images/profile32.png" width="1000">
+						<figcaption></figcaption>
+					</section>
+
+				</section>
+
+				<section>
+					<section><h1>Profiles S - N</h1></section>
+
+					<section>
+						<img src="images/M17.png" width="350">
+						<img src="images/P17.png" width="600">
+						<figcaption></figcaption>
+					</section>
+
+					<section>
+						<img src="images/M20.png" width="350">
+						<img src="images/P20.png" width="600">						<figcaption></figcaption>
+					</section>
+
+					<section>
+						<img src="images/M23.png" width="350">
+						<img src="images/P23.png" width="600">						<figcaption></figcaption>
+					</section>
+
+				</section>
+
+				<section>
+					<h3>Afluentes al río Magdalena</h3>
+					<img src="images/Afluentes_Fallas_Magdalena.png" width="1000">
+					<figcaption></figcaption>
+				</section>
+
+				<section>
+					<h3>Fallas</h3>
+					<img src="images/Estructuras.png" width="800">
+					<figcaption></figcaption>
+				</section>
+
+				<section>
+					<h3>Indice de asimetría</h3>
+					<img src="images/Indice_Asime.png" width="470">
+					<figcaption></figcaption>
+				</section>
+
+				<section>
+					<h3>SL index</h3>
+					<img src="images/SL CON FALLAS.png" width="680">
+					<figcaption></figcaption>
+				</section>
+
+				<section>
+					<h3>χ plot</h3>
+					<img src="images/AreaEstudioChi.png" width="500">
+					<figcaption></figcaption>
+				</section>
+
+				<section>
+					<h3>χ plot</h3>
+					<img src="images/ZonasEnDesequilibrio.png" width="550">
+					<figcaption></figcaption>
+				</section>
+					
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/menu/menu.js"></script>
+		<script src="plugin/math/math.js"></script>
+
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				slideNumber: 'c/t',
+				hash: true,
+				math: {
+					// mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+					config: 'TeX-AMS_HTML-full',
+					TeX: {
+						Macros: {
+							R: '\\mathbb{R}',
+							set: [ '\\left\\{#1 \\; ; \\; #2\\right\\}', 2 ]
+						}
+					}
+				},
+				menu: {
+					side: 'left', // 'left' or 'right'.
+					width: 'normal', // 'normal', 'wide', 'third', 'half', 'full', or
+					numbers: false,
+					titleSelector: 'h1, h2, h3',
+					useTextContentForMissingTitles: false,
+					hideMissingTitles: false,
+					markers: true,
+					custom: false,
+					themes: true,
+					themesPath: 'dist/theme/',			
+					transitions: false,  // ['None', 'Fade', 'Slide']
+					openButton: true,
+					openSlideNumber: true,
+					keyboard: true,
+					sticky: false,
+					autoOpen: true,
+					delayInit: false,
+					openOnInit: false,
+					loadIcons: true
+						},
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu, RevealMath ],
+				dependencies: [
+				
+								]
+			});
+		</script>
+	</body>
+</html>
