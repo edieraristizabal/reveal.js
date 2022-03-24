@@ -8,4 +8,6 @@
 * [5th World Landslide Forum 2021](/WLF2021.html) Kyoto (Japan)
 * [Landscape evolution and hazard setting in the Northern Colombian Andes](/LandscapeEvolution&Hazard.html) MSc. Karolina Naranjo (*inpress*)
 * [Morphometrical analysis of fan and catchments](/fanCatchment.html) MSc. Emanuel Castillo (*inpress*)
+* [Hydrometeorological concatenated hazards in the Colombian Andes](/DAAD.html) 2022
+
 
