@@ -9,5 +9,6 @@
 * [Landscape evolution and hazard setting in the Northern Colombian Andes](/LandscapeEvolution&Hazard.html) MSc. Karolina Naranjo (*inpress*)
 * [Morphometrical analysis of fan and catchments](/fanCatchment.html) MSc. Emanuel Castillo (*inpress*)
 * [Hydrometeorological concatenated hazards in the Colombian Andes](/DAAD.html) Climate induced challenges (2022)
+* [Geographical data science applied to landslide and debris flow hazard in the Colombian Andes](/AI4NDM.html) AI4NDM, Jun 07, 2022
 
 
