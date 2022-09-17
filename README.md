@@ -1,6 +1,13 @@
 <h1>
-  <a style="font-size: 3em;">Presentaciones</a>
+  <a style="font-size: 3em;">Presentaciones por: Edier Aristizábal</a>
 </h1>
+
+---
+**NOTE**
+
+El contenido de las presentaciones es de libre uso, pero se debe referenciar adecuadamente como se señala al inicio de cada presentación.
+
+---
 
 ## Eventos
 

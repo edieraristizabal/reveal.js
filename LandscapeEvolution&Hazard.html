@@ -114,7 +114,8 @@
 			</section>
 
 			<section>
-				<img src="images/geohazards.jpg"  width="400">
+				<p>Naranjo K., Aristizábal E. 2022. Landscape evolution & natural hazards in the northern Colombian Andes. MSc thesis. Universidad Nacional de Colombia.</p>
+				<img src="images/geohazards.jpg"  width="300">
 				<hr>
 				<a style="color: blue; font-size: 30px;" href="https://geohazards.com.co/">https://geohazards.com.co</a>
 			</section>
@@ -166,10 +167,6 @@
 
 				<section>
 					<h3>River profile analysis</h3>
-					<p>Diffusive processes dominate small drainage areas, producing convex rounded hillslopes near
-						drainage divides,
-						whereas advective processes dominate large drainage areas, producing integrated, concave valley
-						systems.</p>
 
 					<p>The change in channel bed elevation at any
 						point along the longitudinal profile with respect
@@ -183,17 +180,23 @@
 
 					$\frac{dz(x,t)}{dt}=U(x,t)-K(x,t)A^m(\frac{dz(x,t)}{dx})^n$
 
+					<p>Under steady-state conditions, a perfect balance between rock uplift and incision results in time-invariant topography ($dz/dt=0$).</p>
+
+					$\frac{dz}{dx}=(\frac{U}{KA^m})^{1/n}$
+
 				</section>
 
 				<section>
 					<h3>Coordenada $\chi$</h3>
-					<p>Under steady-state conditions, a perfect balance between rock uplift and incision results in time-invariant topography ($dz/dt=0$). A solution for the steady-state elevation of a river channel as a function of stream length (x) above base level  can be obtained via separation of variables:</p>
+					<p>Segun Perron & Royden (2012) performing the integration in the upstream direction from a base level $x_b$ to an observation point $x$ yields an 
+						equation for the elevation profile. If U and K are uniform, they can be brought outside the integral, and:</p>
 
-					$z(x)=z(x_b)+(\frac{U}{KA_0^m})^{1/n}\int_{x_b}^x(\frac{A_0}{A(x)})^\theta dx$<br>
+					$z(x)=z(x_b)+(\frac{U}{KA_0^m})^{1/n}\int_{x_b}^x\frac{d_x}{A(x)^{m/n}}$<br>
 
-					<p>If U and K are uniform, they can be brought outside the integral, and:<p>
+					<p>To create transformed river profiles with units of length on both axes, it is convenient to introduce a reference drainage area,
+						$A_0$<p>
 
-					$z(x)=z(x_b)+(\frac{U}{K})^{1/n} \chi$<br>
+					$z(x)=z(x_b)+(\frac{U}{KA_0^m})^{1/n} \chi$<br>
 
 					<p>where:</p>
 
