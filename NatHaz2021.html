@@ -27,38 +27,6 @@
 
 <body>
 
-	<script>
-		setInterval(showTime, 1000);
-		function showTime() {
-			let time = new Date();
-			let hour = time.getHours();
-			let min = time.getMinutes();
-			let sec = time.getSeconds();
-			am_pm = "am";
-
-			if (hour > 12) {
-				hour -= 12;
-				am_pm = "pm";
-			}
-			if (hour == 0) {
-				hr = 12;
-				am_pm = "am";
-			}
-
-			hour = hour < 10 ? "0" + hour : hour;
-			min = min < 10 ? "0" + min : min;
-			sec = sec < 10 ? "0" + sec : sec;
-
-			let currentTime = hour + ":"
-				+ min + ":" + sec + am_pm;
-
-			document.getElementById("clock")
-				.innerHTML = currentTime;
-		}
-
-		showTime();
-	</script>
-
 	<div class="reveal">
 
 		<!-- Any section element inside of this container is displayed as a slide -->
@@ -91,6 +59,16 @@
 					var months = ["Jan.", "Feb.", "Mar.", "Apr.", "May.", "Jun.", "Jul.", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."];
 					document.getElementById("demo").innerHTML = months[d.getMonth()] + " " + d.getDate() + " / " + d.getFullYear();
 				</script>
+			</section>
+
+			<section>
+				<p>Edier Aristizábal, Maria Isabel Arango, Federico Gómez, Manuela Álvarez, Daissy Herrera, Johnnatan Palacio. 2021. 
+					Debris flows induced by Multiple Occurrence Regional Landslides Events in the Colombian Andes. 
+					Second International Conference on Natural Hazards and Risks in a Changing World. Potsdam (Germany).
+				</p>
+				<img src="images/geohazards.jpg"  width="300">
+				<hr>
+				<a style="color: blue; font-size: 30px;" href="https://geohazards.com.co/">https://geohazards.com.co</a>
 			</section>
 
 				<section>
