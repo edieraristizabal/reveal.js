@@ -12,7 +12,7 @@
 
 	<!-- Theme used for syntax highlighted code -->
 	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
-	<link rel="stylesheet" href="dist/theme/Serif.css" id="theme">
+	<link rel="stylesheet" href="dist/theme/serif.css" id="theme">
 
 	<style>
 		.reveal h1 {
@@ -149,6 +149,22 @@
 				</section>
 
 				<section>
+					<h3>Flint´s law</h3>
+					<p>For a steady-state
+						landscape, where river incision rate is equal to
+						the rock uplift rate ($dz/dt=0$) and equation can
+						be solved for equilibrium channel slope (S) at a
+						given drainage area (A)</p>
+				
+					$S=K_sA^{-\theta}$
+
+					<p>The coefficient $k_s$ and the exponent θ (m/n) are referred to as the channel
+						steepness index and channel concavity index (the rate of
+						change of local channel slope as a function of
+						increasing drainage area) (Snyder et al., 2000).</p>
+				</section>
+
+				<section>
 					<h3>River profile analysis</h3>
 					<p>Diffusive processes dominate small drainage areas, producing convex rounded hillslopes near
 						drainage divides,
@@ -157,38 +173,33 @@
 
 					<p>The change in channel bed elevation at any
 						point along the longitudinal profile with respect
-						to time, dz/dt, reflects a competition between
+						to time (dz/dt) reflects a competition between
 						the rates of rock uplift and channel incision with
-						respect to base level. T</p>
-					$\frac{dz}{dt}=U-E=U-KA^mS^n$
-					<p>where U is the rock uplift rate.</p>
-				</section>
+						respect to base level. </p>
 
-				<section>
-					<h3>Flint´s law</h3>
-					<p>For a steady-state
-						landscape, where river incision rate is equal to
-						the rock uplift rate, dz/dt = 0, and equation can
-						be solved for equilibrium channel slope, S, at a
-						given drainage area, A,</p>
-					<p>Rock uplift (U) = River incision (E) --> steady state</p>
+					$\frac{dz(x,t)}{dt}=U(x,t)-E$
 
-					$S=K_sA^{-\theta}$
-					<p>The coefficient $k_s$
-						and the exponent θ (m/n) are referred to as the channel
-						steepness index and channel concavity index (the rate of
-						change of local channel slope as a function of
-						increasing drainage area) (Snyder et al., 2000).</p>
+					<p>where U is the rock uplift rate and E erosion rate. If E is change by $q_s$ and $S$ by $dz/dx$ then:</p>
+
+					$\frac{dz(x,t)}{dt}=U(x,t)-K(x,t)A^m(\frac{dz(x,t)}{dx})^n$
+
 				</section>
 
 				<section>
 					<h3>Coordenada $\chi$</h3>
-					<p>A method that compares the elevations of channel profiles, rather than slope, is integrating the Flint's law, since $S=dz/dx$ resulting in:</p>
-					$z(x)=z(x_b)+(\frac{K_s}{A_0^\theta})\int_{x_b}^x(\frac{A_0}{A(x)})^\theta dx$<br>
-					$\chi=\int_{x_b}^x(\frac{A_0}{A(x)})^\theta dx$<br>
-					$z(x)=z(x_b)+(\frac{K_s}{A_0^\theta})\chi$<br>
+					<p>Under steady-state conditions, a perfect balance between rock uplift and incision results in time-invariant topography ($dz/dt=0$). A solution for the steady-state elevation of a river channel as a function of stream length (x) above base level  can be obtained via separation of variables:</p>
 
-					
+					$z(x)=z(x_b)+(\frac{U}{KA_0^m})^{1/n}\int_{x_b}^x(\frac{A_0}{A(x)})^\theta dx$<br>
+
+					<p>If U and K are uniform, they can be brought outside the integral, and:<p>
+
+					$z(x)=z(x_b)+(\frac{U}{K})^{1/n} \chi$<br>
+
+					<p>where:</p>
+
+					$\chi=\int_{x_b}^x(\frac{A_0}{A(x)})^\theta dx$<br>
+
+					<p>and $A_0$ is an arbitrary scaling area that gives $\chi$ units of length. $\chi$ depends only upon the modern distribution of drainage area, not on topography.</p>
 
 					<p>The slope of the χ‐z plot is $k_s$ if $A_0$ is set to unity</p>
 				</section>
