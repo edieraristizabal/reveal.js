@@ -1,6 +1,7 @@
 <h1>
-  <a style="font-size: 3em;">Presentaciones por: Edier Aristizábal</a>
+  <a style="font-size: 3em;">Presentaciones</a>
 </h1>
+# Edier Aristizábal
 
 ---
 **NOTE**
