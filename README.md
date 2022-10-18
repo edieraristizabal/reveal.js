@@ -18,5 +18,6 @@ El contenido de las presentaciones es de libre uso, pero se debe referenciar ade
 * [Morphometrical analysis of fan and catchments](/fanCatchment.html) MSc. Emanuel Castillo (*inpress*)
 * [Hydrometeorological concatenated hazards in the Colombian Andes](/DAAD.html) Climate induced challenges (2022)
 * [Geographical data science applied to landslide and debris flow hazard in the Colombian Andes](/AI4NDM.html) AI4NDM, Jun 07, 2022
+* [Hydrometeorological concatenated hazards in the Colombian Andes](/LandScient2022.html) LandScient (2022)
 
 
