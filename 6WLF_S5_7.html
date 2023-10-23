@@ -63,6 +63,13 @@
 			margin-left: 200px;
 			margin-right: auto;
 			}
+
+		.reveal .twocolumn {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-gap: 10px;
+			text-align: left;
+			}
 	</style>
 
 </head>
@@ -119,111 +126,64 @@
 
 			<section>
 				<h3>Study area relief</h3>
-				<div style="position: relative; width: 80%;"> 
-				<img src="http://drive.google.com/uc?export=view&id=1yb7a3r2blSzEoSB3OuHQj7QdtFFTucbe">
-				</div>
+				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1yb7a3r2blSzEoSB3OuHQj7QdtFFTucbe">
 				<figcaption>Source: Google Earth Engine</figcaption>
 			</section>
 
 			<section>
-				<h3>Relief</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1ReDW4f38iEdhfzrnnLBuMZRxkMyXfnxt">
-				<figcaption>Data source: SRTM 30m - Software: Google Earth Engine</figcaption>
-			</section>
-
-			<section>
-				<h3>Major basins</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1NaR_il0YPB0542vFGHBTpx4Ofws3iqA-">
-				<figcaption></figcaption>
-			</section>
-
-			<section>
-				<h3>Drainage network</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1yWhqC8fBRGwaqoUX0gooDdIlqVzVRFnh">
-				<figcaption>Data source: SRTM 30m - Software: LSDTopoTools</figcaption>
-			</section>
-
-			<section>
 				<h3>Rainfall</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1n9Mlf1uejiBL2e1A-vczS7CCN9ttvUGt" >
+				<div class="twocolumn">
+					<div>
+						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1n9Mlf1uejiBL2e1A-vczS7CCN9ttvUGt"  width="400">
+					</div>
+					<div>
+					<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1n3m38DW9Lo2DSfN1uSEobvo6j2De0T-T"  width="350">
+					<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1-2P5Jj7mXNGaaa7OkELMguxZDUQcIGHi"  width="350">
+					<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1-7MB1LDrkvF8NFCsFX9wvF0QUOvbK1I7"  width="350">
+					</div>
+				</div>
 				<figcaption>Data source: satellite rainfall CHIRPS (1981-2023), Spatial Res. 5km</figcaption>
 			</section>
 
 			<section>
-				<h3>Profile B</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1-2P5Jj7mXNGaaa7OkELMguxZDUQcIGHi" >
-				<figcaption>Data source: satellite rainfall CHIRPS (1981-2023), Spatial Res. 5km</figcaption>
-			</section>
-			
-			<section>
-				<h3>Relict landslides</h3>
-				<img src="https://i.pinimg.com/564x/56/d9/ec/56d9ece1ee269324ac35cbf9987f80c5.jpg" width="700">
+				<div class="twocolumn">
+					<div>
+						<h3>Relict landslides</h3>
+						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=14ISNzwFaX_wlX9gU0SYCpCVEUDsYsvfJ" width="400">
+					</div>
+					<div>
+						<h3>Recent landslides</h3>
+						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=10Pwfw8UiYQCuTeoN9ZpU0KeyGPKbevd7" width="400">
+					</div>
+				</div>
 				<figcaption></figcaption>
 			</section>
 
 			<section>
-				<h3>Relict landslides</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=14ISNzwFaX_wlX9gU0SYCpCVEUDsYsvfJ">
-				<figcaption></figcaption>
-			</section>
-			
-			<section>
-				<h3>Fan inventory</h3>
-				<img src="https://i.pinimg.com/564x/12/f5/df/12f5dff167d74fbf1da5c3a8943cd786.jpg" width="700">
-				<figcaption></figcaption>
-			</section>
-
-			<section>
-				<h3>Fan inventory</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=10ywJGixpkscB8-rBdQ6fslD2cg76Yjmf">
-				<figcaption></figcaption>
-			</section>
-			
-			<section>
-				<h3>Recent landslides</h3>
-				<img src="https://i.pinimg.com/564x/08/9e/74/089e74489520ef2fd33d4780346830ea.jpg" width="700">
-				<figcaption></figcaption>
-			</section>
-						
-			<section>
-				<h3>Recent landslides</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=10Pwfw8UiYQCuTeoN9ZpU0KeyGPKbevd7">
-				<figcaption></figcaption>
-			</section>
-
-			<section>
-				<h3>$\chi$ plot</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1lQ_IXN7z9t-IiUy8v63d_f5I0eOTPKY7" width="450">
-				<figcaption>Data source: ALOS-PALSAR 12.5m - Software: LSDTopoTools</figcaption>
-			</section>
-								
-			<section>
-				<h3>$\chi$ plot & transient catchment borders</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1lW9jkjYb01wxc0DKaW0ef64sPdvtTpz8" width="450">
+				<div class="twocolumn">
+					<div>
+						<h3>$\chi$ plot</h3>
+						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1lQ_IXN7z9t-IiUy8v63d_f5I0eOTPKY7" width="400">
+					</div>
+					<div>
+						<h3>Transient catchment</h3>
+						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1lW9jkjYb01wxc0DKaW0ef64sPdvtTpz8" width="400">
+					</div>
+				</div>
 				<figcaption>Data source: ALOS-PALSAR 12.5m - Software: LSDTopoTools</figcaption>
 			</section>
 
 			<section>
-				<h3>Transient catchment borders</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1lAySJ_47jnavQCHfZzYaZhj2PQwl038d"  width="450">
-				<figcaption>Data source: ALOS-PALSAR 12.5m - Software: LSDTopoTools</figcaption>
-			</section>
-
-			<section>
-				<h3>Recient landslides</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1AYywIKyymGzLCOyZSL1-jKVFiS3GdT9R" width="450">
-				<figcaption></figcaption>
-			</section>
-
-			<section>
-				<h3>Relict landslides</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1jfbjLBeanmiYLsLQAktMwFwLKHRY8fcr">
-				<figcaption></figcaption>
-			</section>
-
-			<section>
-				<h3>Fan inventory</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1pDGpdAzz_k6Q9ekW35ByhHJdwpr-8MC2">
+				<div class="twocolumn">
+					<div>
+						<h3>Recient landslides</h3>
+						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1AYywIKyymGzLCOyZSL1-jKVFiS3GdT9R" width="400">
+					</div>
+					<div>
+						<h3>Relict landslides</h3>
+						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1jfbjLBeanmiYLsLQAktMwFwLKHRY8fcr" width="400">
+					</div>
+				</div>
 				<figcaption></figcaption>
 			</section>
 
@@ -233,62 +193,58 @@
 			</section>
 
 			<section>
-				<h3>Hipsometry index</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1m1B8-eIixco7L_7s2i4R8kq1yZZLrCPI">
+				<div class="twocolumn">
+					<div>
+						<h3>Hipsometry index</h3>
+						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1m1B8-eIixco7L_7s2i4R8kq1yZZLrCPI" width="400">
+					</div>
+					<div>
+						<h3>Transient borders</h3>
+						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1mx4jnt6_CMLervrYEiIUZ4vWAClslk__" width="400">
+					</div>
+				</div>
 				<figcaption>Data source: ALOS-PALSAR 12.5m - Software: WhiteToolBox</figcaption>
 			</section>
 
 			<section>
-				<h3>Hipsometry index</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1mx4jnt6_CMLervrYEiIUZ4vWAClslk__">
-				<figcaption>Data source: ALOS-PALSAR 12.5m - Software: WhiteToolBox & LSDTopoTools</figcaption>
-			</section>
-
-			<section>
-				<h3>Hipsometry index & recient landslides (DEM 12.5m)</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1mOL7SwF2_j7TQ_D-Es1NxF1e96_jACbL">
+				<div class="twocolumn">
+					<div>
+						<h3>Recent</h3>
+						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1mOL7SwF2_j7TQ_D-Es1NxF1e96_jACbL" width="400">
+					</div>
+					<div>
+						<h3>Relict</h3>
+						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1mKfnlM6HZR6h7OcbB4YVGzOTJbq2OuuL" width="400">
+					</div>
+				</div>
 				<figcaption>Data source: ALOS-PALSAR 12.5m - Software: WhiteToolBox</figcaption>
 			</section>
 
 			<section>
-				<h3>Hipsometry index & relict landslides (DEM 12.5m)</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1mKfnlM6HZR6h7OcbB4YVGzOTJbq2OuuL">
-				<figcaption>Data source: ALOS-PALSAR 12.5m - Software: WhiteToolBox</figcaption>
-			</section>
-
-			<section>
-				<h3>Hipsometry index & fan catchments (DEM 12.5)</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1m6LXC0GJRiVkA1XjHuTmXdrFEeP9rvcR">
-				<figcaption>Data source: ALOS-PALSAR 12.5m - Software: WhiteToolBox</figcaption>
-			</section>
-
-			<section>
-				<h3>Structural orientation by tectonic blocks</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1E6Ogf57-fzBwlcDdLhV6OyiLJLe_DPBJ">
+				<div class="twocolumn">
+					<div>
+						<h3>Structural direction</h3>
+						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1E6Ogf57-fzBwlcDdLhV6OyiLJLe_DPBJ" width="400">
+					</div>
+					<div>
+						<h3>Structural density</h3>
+						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1D__ySqJ_BEqwcSb8mH2TzcOKLy-L4F2q" width="400">
+					</div>
+				</div>
 				<figcaption>Data source: ALOS-PALSAR 12.5m - Software: CATALYST Professional,</figcaption>
 			</section>
 
 			<section>
-				<h3>Structural density by 5kmx5km blocks</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1D__ySqJ_BEqwcSb8mH2TzcOKLy-L4F2q">
-				<figcaption>Data source: ALOS-PALSAR 12.5m - Software: CATALYST Professional,</figcaption>
-			</section>
-
-			<section>
-				<h3>Structural density & relict</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1nNGaLBob7F1o6ea2BTX4cbCtP4RtevsX">
-				<figcaption>Data source: ALOS-PALSAR 12.5m - Software: CATALYST Professional,</figcaption>
-			</section>
-
-			<section>
-				<h3>Structural density & fans</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1n6rvWHUxhGvPVpkQr0BnklT0xXdFfYoR">
-				<figcaption>Data source: ALOS-PALSAR 12.5m - Software: CATALYST Professional,</figcaption>
-			</section>
-
-			<section>
-				<h3>Structural density & recents</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1n5oIjegy6wqrLfDWaFrPTkzZe4iayc7Z">
+				<div class="twocolumn">
+					<div>
+						<h3>Density vs Recent</h3>
+						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1nNGaLBob7F1o6ea2BTX4cbCtP4RtevsX" width="400">
+					</div>
+					<div>
+						<h3>Density vs Relict</h3>
+						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1n5oIjegy6wqrLfDWaFrPTkzZe4iayc7Z" width="400">
+					</div>
+				</div>
 				<figcaption>Data source: ALOS-PALSAR 12.5m - Software: CATALYST Professional,</figcaption>
 			</section>
 
