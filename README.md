@@ -20,7 +20,8 @@ El contenido de las presentaciones es de libre uso, pero se debe referenciar ade
 * [Geographical data science applied to landslide and debris flow hazard in the Colombian Andes](/AI4NDM.html) AI4NDM, Jun 07, 2022
 * [Hydrometeorological concatenated hazards in the Colombian Andes](/LandScient2022.html) LandScient (2022)
 * [Avenidas torrenciales en los Andes colombianos](/AvenidasTorrenciales.html) UdeA (2023)
-* [Landscape evolution & landlside occurrence](/6WLF_S5_7.html) WLF (2023)
+* [Landscape evolution & landlside occurrence](/6WLF_S5_7.html) WLF (2023)  
+* [Landslide hazard assessment](/6WLF_S4_3.html) WLF (2023)
 
 
 
