@@ -29,7 +29,7 @@
 			font-size: 30px;
 			color: blue;
 			font-weight: bold;
-			text-align: center;
+			text-align: left;
 		}
 		
 		.reveal figcaption {
@@ -121,33 +121,28 @@
 			</section>
 
 			<section>
-				<h3>Multi-geohazard setting in Colombia</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1jWXnWLmHy3VOUX2bBsOVgEg8N-nNzdgY">
-			</section>
-			
-			<section>
-				<h3>Rainfall</h3>
-				<div class="twocolumn">
-					<div>
-						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1n9Mlf1uejiBL2e1A-vczS7CCN9ttvUGt"  width="400">
-					</div>
-					<div>
-					<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1n3m38DW9Lo2DSfN1uSEobvo6j2De0T-T"  width="350">
-					<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1-2P5Jj7mXNGaaa7OkELMguxZDUQcIGHi"  width="350">
-					<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1-7MB1LDrkvF8NFCsFX9wvF0QUOvbK1I7"  width="350">
-					</div>
-				</div>
-				<figcaption>Data source: satellite rainfall CHIRPS (1981-2023), Spatial Res. 5km</figcaption>
+				<h1>1. Research question</h1>
+				<br>
+				<p>Locally, landslides tend to occur on steep slopes & weak materials. Then, those variables are used with data-drive and physically-base models to 
+					map landslide susceptibility and hazard.</p> 
+				<br>
+				<p>But in a regional spatial scale, where landscape is dominated by steep slopes, complex geology and rainfall, as the Colombian Andes...</p>
+				<p style="color: blue;"> landslide occurrence is randomly distributed?...or landslide occurrence shows a spatial pattern?</p>
 			</section>
 
 			<section>
-				<h3>Study area relief</h3>
+				<h2>Multi-geohazard setting in Colombia</h2>
+				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1jWXnWLmHy3VOUX2bBsOVgEg8N-nNzdgY">
+			</section>
+
+			<section>
+				<h2>Study area relief</h2>
 				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1yb7a3r2blSzEoSB3OuHQj7QdtFFTucbe">
 				<figcaption>Source: Google Earth Engine</figcaption>
 			</section>
 
 			<section>
-				<h3>Landslides</h3>
+				<h2>Landslides</h2>
 				<div class="twocolumn">
 					<div>
 						<h3>Relict (k.a. years)</h3>
@@ -163,54 +158,55 @@
 			</section>
 
 			<section>
-				<p>In a very simplistic way...landslides tend to occur on steep slopes & weak materials.</p> 
-				<p style="color: blue;">But in a regional scale landslide occurrence is an stochastic process?</p>
-				<p style="color: blue;"> ...or is there an spatial pattern?</p>
-			</section>
-
-			<section>
 				<h3>Relict landslide occurrence shows a clear spatial pattern...</h3>
 				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1pOlCstLOOkB7pl5ieMXfrnnO_fHBKtux">
 				<figcaption>Data: 12.5 m DEM, Software: Pysal Python library</figcaption>
 			</section>
 
 			<section>
-				<h3>Recent landslide occurrence shows a clear spatial pattern...</h3>
+				<h3>Recent shows a clear spatial pattern...</h3>
 				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1sAC6kezdb9BNcBJxKHFFK609_IWRJjLh">
 				<figcaption>Data: 12.5 m DEM, Software: Pysal Python library</figcaption>
 			</section>
 
 			<section>
-				<p style="color: blue;">...so, what is the mechanism behind this landslide occurrence spatial pattern?</p>
+				<h1>2. Research question</h1>
+				<br>
+				<p>...so, what is the mechanism behind this landslide occurrence spatial pattern?</p>
 			</section>
 
 			<section>
-				<h3>Geology</h3>
+				<h2>Geology</h2>
 				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1tJzavfRRagHmcyyC_z2nCezpj0o0ESHw" width="400">
 			</section>
 
 			<section>
-				<h3>Structural density</h3>
+				<h2>Structural density</h2>
+					<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1yQz5B1creWqj6wWm-JDsm7TVjcspxQoy" width="400">
+
+				<figcaption>Data source: ALOS-PALSAR 12.5m - Software: CATALYST Professional,</figcaption>
+			</section>
+			
+			<section>
+				<h2>Rainfall</h2>
 				<div class="twocolumn">
 					<div>
-						<h3>Relict</h3>
-						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1n5oIjegy6wqrLfDWaFrPTkzZe4iayc7Z" width="400">
+						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1yLBsyps0OCt_oi8wuXMNdGO0ucHcgguK"  width="400">
 					</div>
 					<div>
-						<h3>Recent</h3>
-						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1nNGaLBob7F1o6ea2BTX4cbCtP4RtevsX" width="400">
+					<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1n3m38DW9Lo2DSfN1uSEobvo6j2De0T-T"  width="350">
+					<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1-2P5Jj7mXNGaaa7OkELMguxZDUQcIGHi"  width="350">
+					<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1-7MB1LDrkvF8NFCsFX9wvF0QUOvbK1I7"  width="350">
 					</div>
 				</div>
-				<figcaption>Data source: ALOS-PALSAR 12.5m - Software: CATALYST Professional,</figcaption>
+				<figcaption>Data source: satellite rainfall CHIRPS (1981-2023), Spatial Res. 5km</figcaption>
 			</section>
 
 			<section>
-				<p>Geology & structures don't fully explain landslides occurrence.</p>
-				<br>
-				<p style="color: blue;"> Channel-Hillslope coupling</p>
-				<p>The fluvial network acts as the primary agent by which perturbations are transmitted throughout 
-					the landscape, adjusting surrounding hillslopes to new conditions (Whipple et al., 2004; 
-					Whipple et al., 1999; Bigi et al., 2006; Larsen et al., 2012, Egholm et al., 2013)</p>
+				<h1>Landscape evolution</h1>
+				<h2 style="color:black;">Channel - hillslope coupling as key to understanding landslide patterns</h2>
+				<p>The fluvial network acts as the primary agent by which perturbations (climatic & tectonic) are transmitted throughout 
+					the landscape, as knickpoints, adjusting surrounding hillslopes to unstable conditions (Whipple et al., 2004), and controlling landslide susceptibility.</p>
 			</section>
 
 			<section>
@@ -219,48 +215,21 @@
 			</section>
 
 			<section>
-				<h3>Landslides & hipsometric integral</h3>
+				<h2>Catchment landslide distribution</h2>
 				<div class="twocolumn">
-					<div>
-						<h3>Relict</h3>
-						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1BTc9s0Iqe081PxxPpt92oXPXq7TxLrdj" width="400">
-					</div>
 					<div>
 						<h3>Recent</h3>
-						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1EEGBmRx_6JkGL8ZF3lkd0YY7Im0fI56D" width="400">
+						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1vKDToz2jp1IPx5mT8CQHYnbzyR5RIHX-" width="500">
+					</div>
+					<div>
+						<h3>Relict</h3>
+						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1vs_y1VRwoEh7bz7CZctQpx0CkdAHhLI4" width="500">
 					</div>
 				</div>
-				<figcaption>Data source: ALOS-PALSAR 12.5m - Software: WhiteToolBox</figcaption>
 			</section>
 
 			<section>
-				<h3>Relict landslides & hipsometric index</h3>
-				<div class="twocolumn">
-					<div>
-						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1pB_Vk0X4P0luoVOka_DCgSy9WAzvYMYy" width="600">
-					</div>
-					<div>
-						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1pCC2UepiL7E6fvSyC8SK23uQYxJnIQjx" width="400">
-					</div>
-				</div>
-				<figcaption>Data source: ALOS-PALSAR 12.5m - Software: WhiteToolBox</figcaption>
-			</section>
-
-			<section>
-				<h3>Recent landslides & hipsometric index</h3>
-				<div class="twocolumn">
-					<div>
-						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1oxYpooblqA4Fn20DT9oJe7GrfuEEmxFU" width="600">
-					</div>
-					<div>
-						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1p5ESBxvgTLYlx_G2EtOmh6YBkeq_cvPX" width="400">
-					</div>
-				</div>
-				<figcaption>Data source: ALOS-PALSAR 12.5m - Software: WhiteToolBox</figcaption>
-			</section>
-
-			<section>
-				<h3>River profile analysis</h3>
+				<h2>River profile analysis</h2>
 
 				<p>The change in channel bed elevation at any
 					point along the longitudinal profile with respect
@@ -277,11 +246,10 @@
 				<p>Under steady-state conditions, a perfect balance between rock uplift and incision results in time-invariant topography ($dz/dt=0$).</p>
 
 				$\frac{dz}{dx}=(\frac{U}{KA^m})^{1/n}$
-
 			</section>
 
 			<section>
-				<h3>Coordenada $\chi$</h3>
+				<h2>$\chi$ index</h2>
 				<p>Perron & Royden (2012) perform the integration in the upstream direction from a base level $x_b$ to an observation 
 					point $x$ yields an equation for the elevation profile. If U and K are uniform, they can be brought outside 
 					the integral, and:</p>
@@ -295,23 +263,23 @@
 				<br>
 				<p>and $A_0$ is an arbitrary scaling area that gives $\chi$ units of length. 
 				$\chi$ depends only upon the modern distribution of drainage area, not on topography.</p>
-
 			</section>
 
 			<section>
-				<img src="https://www.researchgate.net/profile/Scott-Mccoy/publication/260611497/figure/fig1/AS:601616176648225@1520447882746/River-basins-and-river-profiles-in-equilibrium-and-disequilibrium-A-and-B-Change-in.png"
-					width="700">
+				<h2>$\chi$ index for catchment evolution</h2>
+				<img class="r-stretch" src="https://www.researchgate.net/profile/Scott-Mccoy/publication/260611497/figure/fig1/AS:601616176648225@1520447882746/River-basins-and-river-profiles-in-equilibrium-and-disequilibrium-A-and-B-Change-in.png">
 				<figcaption>Source: Willett et al. (2014)</figcaption>
 			</section>
 
 			<section>
+				<h2>$\chi$ plot</h2>
 				<div class="twocolumn">
 					<div>
-						<h3>$\chi$ plot</h3>
+						<h3>$\chi$ values</h3>
 						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1lQ_IXN7z9t-IiUy8v63d_f5I0eOTPKY7" width="400">
 					</div>
 					<div>
-						<h3>Transient catchment</h3>
+						<h3>Transient borders</h3>
 						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1lW9jkjYb01wxc0DKaW0ef64sPdvtTpz8" width="400">
 					</div>
 				</div>
@@ -319,7 +287,7 @@
 			</section>
 
 			<section>
-				<h3>Landslides</h3>
+				<h1>Landslides</h1>
 				<div class="twocolumn">
 					<div>
 						<h3>Relict</h3>
@@ -334,19 +302,26 @@
 			</section>
 
 			<section>
+				<h2>Knickpoint migration & Landslides</h2>
+					<img src="http://drive.google.com/uc?export=view&id=1wmXLV_f5xPsezJkR0OS5IQKmMEk5HeSk" width="700">
+					<img src="http://drive.google.com/uc?export=view&id=1y1UXVWpOnrszATTiuan_a0hk48Hh46ou" width="200">
+					<figcaption>Source: Gallen et al. (2011)</figcaption>
+			</section>
+
+			<section>
 				<h3>Conclusions</h3>
 				<ul>
 					<li>In the northern Colombian andes, which is characterized by geological and tectonic diversity, and tropical environment, 
-						landslide occurrence is not an stochastic process. Landslide tends to occurr in very especific areas.</li>
+						landslide occurrence is not an stochastic process. Landslide tends to occur in very especific areas.</li>
 					<br>
-						<li>Well-known geomorphologic parameters, such as hipsometric index and longitudinal river profiles, indicate a close relationship 
+						<li>Well-known geomorphologic parameters, such as hypsometric index and longitudinal river profiles, indicate a close relationship 
 						between landslides and channel network.</li>
 					<br>
-					<li>New geomrphological tools have been applied to stablish landslide occurrence in the context of hillslope-channel 
-						coupling under a dynamic landscape evolution..</li>
+					<li>$\chi$ index has been applied to stablish landslide occurrence in the context of hillslope-channel 
+						coupling under a dynamic landscape evolution.</li>
 					<br>
 					<li>Finally, it is fundamental to unravel landslide occurrence and landscape evolution. This will permits 
-						to evaluate landslide occurrence under a dynamic context of Climate Change and Land-use changes by anthropogenic causes.</li>
+						to evaluate landslide occurrence under a dynamic context of climate change and land-use changes by anthropogenic causes.</li>
 				</ul>
 			</section>
 	
