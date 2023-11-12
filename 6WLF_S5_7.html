@@ -70,6 +70,23 @@
 			grid-gap: 10px;
 			text-align: left;
 			}
+
+		.reveal #left{
+			left:-8.33%;
+			text-align: left;
+			float: left;
+			width:80%;
+			z-index:-10;
+			}
+
+		.reveal #right {
+			left:31.25%;
+			top: 75px;
+			float: right;
+			text-align: right;
+			z-index:-10;
+			width:20%;
+			}
 	</style>
 
 </head>
@@ -210,25 +227,6 @@
 			</section>
 
 			<section>
-				<h3>Drainage network & landslides</h3>
-				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1-aaluyINyNtWoDETwC-vzboHYnUD-tC5">
-			</section>
-
-			<section>
-				<h2>Catchment landslide distribution</h2>
-				<div class="twocolumn">
-					<div>
-						<h3>Recent</h3>
-						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1vKDToz2jp1IPx5mT8CQHYnbzyR5RIHX-" width="500">
-					</div>
-					<div>
-						<h3>Relict</h3>
-						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1vs_y1VRwoEh7bz7CZctQpx0CkdAHhLI4" width="500">
-					</div>
-				</div>
-			</section>
-
-			<section>
 				<h2>River profile analysis</h2>
 
 				<p>The change in channel bed elevation at any
@@ -272,6 +270,16 @@
 			</section>
 
 			<section>
+				<h3>Longitudinal channel network & landslides</h3>
+				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1-aaluyINyNtWoDETwC-vzboHYnUD-tC5">
+			</section>
+
+			<section>
+				<h3>Longitudinal channel network with $\chi$</h3>
+				<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1-4gSMdkotLidI3tkeNrPD1UgFBd4GAwi">
+			</section>
+
+			<section>
 				<h2>$\chi$ plot</h2>
 				<div class="twocolumn">
 					<div>
@@ -302,10 +310,30 @@
 			</section>
 
 			<section>
+				<h2>Catchment landslide distribution</h2>
+				<div class="twocolumn">
+					<div>
+						<h3>Recent</h3>
+						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1vKDToz2jp1IPx5mT8CQHYnbzyR5RIHX-" width="500">
+					</div>
+					<div>
+						<h3>Relict</h3>
+						<img class="r-stretch" src="http://drive.google.com/uc?export=view&id=1vs_y1VRwoEh7bz7CZctQpx0CkdAHhLI4" width="500">
+					</div>
+				</div>
+			</section>
+
+			<section>
 				<h2>Knickpoint migration & Landslides</h2>
-					<img src="http://drive.google.com/uc?export=view&id=1wmXLV_f5xPsezJkR0OS5IQKmMEk5HeSk" width="700">
-					<img src="http://drive.google.com/uc?export=view&id=1y1UXVWpOnrszATTiuan_a0hk48Hh46ou" width="200">
-					<figcaption>Source: Gallen et al. (2011)</figcaption>
+					<div id="left">
+						<img src="http://drive.google.com/uc?export=view&id=1wmXLV_f5xPsezJkR0OS5IQKmMEk5HeSk" width="800">
+					</div>
+					<div id="right">
+						<br>
+						<br>
+						<img src="http://drive.google.com/uc?export=view&id=1y1UXVWpOnrszATTiuan_a0hk48Hh46ou" width="300">
+						<figcaption>Source: Modified from Gallen et al. (2011)</figcaption>
+					</div>
 			</section>
 
 			<section>
