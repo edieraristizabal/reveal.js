@@ -23,6 +23,8 @@ El contenido de las presentaciones es de libre uso, pero se debe referenciar ade
 * [Landslide hazard assessment](/6WLF_S4_3.html) WLF (2023)
 * [UNGRD2024](/UNGRD2024.html) Qué es una avenida torrencial?
 * [EGU2024](/EGU2024.html)
+* [UniGraz](/Graz2024.html)
+
 
 
 
