@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Graz2024</title>
+
+	<meta name="UTB"
+		content="Ladslides & Rainfall">
+	<meta name="author" content="Edier Aristizábal and the framework Reveals by Hakim El Hattab">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/serif.css" id="theme">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	<link rel="stylesheet" href="dist/style.css">
+
+	<style>
+
+		.reveal h3 {
+			font-size: 30px;
+			color: blue;
+			font-weight: bold;
+			text-align: left;
+		}
+		
+		.reveal figcaption {
+			font-size: 15px;
+			color: gray;
+		}
+		
+		.primera #marca-agua{
+			display:none;
+			}
+		
+		.primera #lecture{
+			display:none;
+			}
+		
+		.reveal section p {
+			font-size: 0.7em;
+			}
+		
+		.reveal section li {
+			font-size: 0.6em;
+			}
+		
+		.reveal .slide-number {
+			right: 400px;
+			bottom: 3px
+			}
+
+		.reveal .move {
+			display: block;
+			margin-left: 200px;
+			margin-right: auto;
+			}
+
+		.reveal .twocolumn {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-gap: 10px;
+			text-align: left;
+			}
+
+		.reveal #left{
+			left:-8.33%;
+			text-align: left;
+			float: left;
+			width:80%;
+			z-index:-10;
+			}
+
+		.reveal #right {
+			left:31.25%;
+			top: 75px;
+			float: right;
+			text-align: right;
+			z-index:-10;
+			width:20%;
+			}
+	</style>
+
+</head>
+
+<body>
+
+	<div class="reveal">
+
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+
+			<div id="marca-agua"><img style="border:none;box-shadow:none;width:60px;position:absolute;top:0%;right:90%;"
+					src="https://www.uni-potsdam.de/typo3conf/ext/up_template/Resources/Public/Images/logos/up_logo_math_2.png"  />
+				<p id="date"></p>
+			</div>
+			<div id="marca-agua"><img style="border:none;box-shadow:none;width:80px;position:absolute;top:0%;right:0%;"
+				src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Logotipo_de_la_Universidad_Nacional_de_Colombia.svg/1024px-Logotipo_de_la_Universidad_Nacional_de_Colombia.svg.png" />
+			</div>
+
+			<section data-background-color="#ffffff" ; data-state="primera">
+				<h1 style="font-size: 40px; color: black;">
+					Rainfall as the triggering factor of landslides in the Colombian Andes
+				</h1>
+				<br>
+				<h4 style="font-size: 25px;">
+					Edier Aristizábal
+				</h4>
+				<h5 style="font-size: 15px;">
+					Departamento de Geociencias y Medio Ambiente, Universidad Nacional, Medellín, Colombia
+				</h5>
+				<h5 style="font-size: 15px;">
+					Institute of Environmental Science and Geography, Postdam University, Germany
+				</h5>
+				<br>
+				<img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/UNAL_Logosimbolo.svg" height="200">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpEXMOu61RHjsifrMfW90HeHTIPxTMJ8CuU7vo7_tVdQ&s" height="200">
+				<p id="demo" style="position:absolute;top:100%;right:45%;color: gray;font-size: 1rem;"></p>
+				<br>
+				
+			</section>
+
+			<section>
+				<h2>Multi - Geohazard setting in Colombia</h2>
+				<img src="https://i.pinimg.com/564x/c3/87/10/c3871059a527587c86860e98ccb3570f.jpg" width="700">
+			</section>
+
+			<section>
+				<h2>Colombian population</h2>
+				<img src="https://i.pinimg.com/564x/c3/c3/d8/c3c3d8bb804a9f0bbe130b3ca807b8ec.jpg" alt="Colombia" width="780"/>
+			</section>
+			
+			<section>
+				<h2>Human exposition</h2>
+				<img class="r-stretch" src="https://lh3.google.com/u/0/d/1ZsU2WU7lN5cC1VVgLm9FqV6uTl93Hc_P">
+				<figcaption>Source: Aristizabal & Sanchez (2020)</figcaption>
+			</section>
+
+			<section>
+				<h2>Landslide in the main cities</h2>
+				<img class="r-stretch" src="https://lh3.google.com/u/0/d/1_2o1G11VvyhJDuLQPU78slCyjRmSfCHQ">
+				<figcaption>Source: Aristizabal & Sanchez (2020)</figcaption>
+			</section>
+
+			<section>
+				<h2>Debris flow (lahar) --> volcano</h2>
+				<img src="https://i.pinimg.com/564x/d6/5d/f2/d65df2eb0cbebbcbba892df29394ab58.jpg" width="800">
+			</section>
+
+			<section>
+				<h2>Debris flow --> earthquake</h2>
+				<img src="https://i.pinimg.com/564x/c5/82/35/c5823593aa5f5d8a22c8d21ee09b9991.jpg" width="800">
+			</section>
+
+			<section>
+				<h2>Debris flow --> rainfall</h2>
+				<img src="https://i.pinimg.com/564x/08/8c/39/088c39daaf8b6e8ae8e170d76753b70b.jpg" width="800">
+				<figcaption>Source: El Tiempo</figcaption>
+			</section>
+
+			<section>
+				<h2>Rosas (Cauca), January 8th 2023</h2>
+				<img src="https://lh3.google.com/u/0/d/1o2UvfzCnDXM4R6ob7bq84yn1veiYROLQ" width="700">
+				<figcaption>Source: El País</figcaption>
+			</section>
+
+			<section>
+				<h2>Chocó, January 13th 2024</h2>
+				<img src="https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/AZTSJPCXVRG23C3UBED6EQ2R7U.jpg" width="800" />
+				<figcaption>Source: El Espectador</figcaption>
+			</section>
+
+			<section>
+				<h2>Rainfall</h2>
+				<div class="twocolumn">
+					<div>
+						<img class="r-stretch" src="https://i.pinimg.com/736x/86/ac/81/86ac81f290500476d88a0500cf2bb911.jpg"  width="400">
+					</div>
+					<div>
+					<img class="r-stretch" src="https://i.pinimg.com/736x/bc/60/86/bc6086f0e284bb9dd65de3a4498cd781.jpg"  width="350">
+					<img class="r-stretch" src="https://i.pinimg.com/736x/59/a3/d5/59a3d5c952b8f7e65df99722dab04075.jpg"  width="350">
+					<img class="r-stretch" src="https://i.pinimg.com/736x/da/0f/38/da0f38fd49914e5a56ca7d7926a6e1b4.jpg"  width="350">
+					</div>
+				</div>
+				<figcaption>Data source: satellite rainfall CHIRPS (1981-2023), Spatial Res. 5km</figcaption>
+			</section>
+
+			<section>
+				<h2>Thresholds</h2>
+				<img src="https://i.pinimg.com/564x/8d/8f/af/8d8faf059d0db036dbe180294ee7a3b1.jpg" width="500" />
+			</section>
+
+			<section>
+				<h2>Tropical soils</h2>
+				<img src="https://i.pinimg.com/564x/97/3e/bb/973ebb0ba09a295860f11f5ebf7df5ff.jpg" width="450" />
+				<figcaption>Source: Aristizabal et al. (2015)</figcaption>
+			</section>
+
+			<section>
+				<h2>Rainfall infiltration in tropical soils</h2>
+				<img src="https://i.pinimg.com/564x/96/21/fe/9621fe215adc31032b8e493a3382da1d.jpg" width="700" />
+				<figcaption>Source: Aristizabal et al. (2015)</figcaption>
+			</section>
+
+			<section>
+				<h2>Perched water table or Wetting front</h2>
+				<img src="https://i.pinimg.com/564x/d7/62/cf/d762cf27e7612a7e27912afa3cbfd4c8.jpg" width="350" />
+				<img src="https://i.pinimg.com/564x/bd/de/3b/bdde3b4bdfcbdabd26005d022f154d17.jpg" width="350" />
+				<figcaption>Source: Aristizabal et al. (2015)</figcaption>
+			</section>
+
+			<section>
+				<h2>Rainfall & Landslides -Annual with ENSO- </h2>
+				<img src="https://i.pinimg.com/736x/c1/fa/b1/c1fab1f0a2052a259d0c47313f9d0f47.jpg" width="800" />
+				<figcaption>Source: Aristizabal (inpress)</figcaption>
+			</section>
+
+			<section>
+				<h2>Rainfall & Landslides -Monthly with ENSO- </h2>
+				<img src="https://i.pinimg.com/736x/c9/7d/13/c97d13d5fa56c4109f0a364c922725ba.jpg" width="800" />
+				<figcaption>Source: Aristizabal (inpress)</figcaption>
+			</section>
+
+			<section>
+				<h2>Rainfall & Landslides -Daily with ENSO- </h2>
+				<img src="https://i.pinimg.com/736x/6e/47/68/6e47687e46e1573144faed8a0b40a888.jpg" width="800" />
+				<figcaption>Source: Aristizabal (inpress)</figcaption>
+			</section>
+
+			<section>
+				<h2>Rainfall & Landslides -Hourly with ENSO- </h2>
+				<img src="https://i.pinimg.com/736x/b4/00/85/b4008579dbec369a912e7907bbcaf498.jpg" width="300" />
+				<figcaption>Source: Aristizabal (inpress)</figcaption>
+			</section>
+
+			<section>
+				<h2>Rain gauges correlation & Rainfall intensity </h2>
+				<img src="https://i.pinimg.com/736x/b2/ee/f9/b2eef9759bab05e54dd437dce5fbfb6f.jpg" width="800" />
+				<figcaption>Source: Aristizabal (inpress)</figcaption>
+			</section>
+
+			<section>
+				<h2>Rainfall & Landslide spatial distribution</h2>
+					<h2>low & high intensity</h2>
+				<img src="https://i.pinimg.com/736x/15/09/66/150966d2d58ab6d875cb9c4793ce2806.jpg" width="400" />
+				<img src="https://i.pinimg.com/736x/54/07/c3/5407c3da95ab0d55c3beb075c9c0355a.jpg" width="400" />
+				<figcaption>Source: Aristizabal (inpress)</figcaption>
+			</section>
+
+			<section>
+				<h2>Rainfall thresholds in Colombia </h2>
+				<img src="https://i.pinimg.com/564x/5f/08/bd/5f08bd743285e0a74c98bd1eeda0a433.jpg" width="600" />
+				<figcaption>Source: </figcaption>
+			</section>
+
+			<section>
+				<h2>Landslides in rural & urban areas </h2>
+				<img src="https://i.pinimg.com/1200x/ed/52/fb/ed52fb5d7a4a4fd61efa4225d129c350.jpg" width="800" />
+				<figcaption>Source: Aristizabal (inpress)</figcaption>
+			</section>
+
+			<section>
+				<h2>Landslides in rural & urban areas - ENSO </h2>
+				<img src="https://i.pinimg.com/736x/f4/62/6c/f4626c8c742453164dfa8d0c2487e03c.jpg" width="350" />
+				<figcaption>Source: Aristizabal (inpress)</figcaption>
+			</section>
+			
+			<section>
+				<h2 style="font-size: 20px; color: black;">Project supported by:</h2>
+				<img src="https://www.humboldt-foundation.de/dest/images/AvH-Logo.svg" width="600">
+				<hr>
+			</section>
+
+			
+			
+		</div>
+
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/zoom/zoom.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/search/search.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script src="plugin/menu/menu.js"></script>
+	<script src="plugin/math/math.js"></script>
+
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/	
+		Reveal.initialize({
+			controls: false,
+			progress: false,
+			center: true,
+			slideNumber: 'c/t',
+			hash: true,
+			math: {
+				// mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+				config: 'TeX-AMS_HTML-full',
+				TeX: {
+					Macros: {
+						R: '\\mathbb{R}',
+						set: ['\\left\\{#1 \\; ; \\; #2\\right\\}', 2]
+					}
+				}
+			},
+			menu: {
+				side: 'left', // 'left' or 'right'.
+				width: 'normal', // 'normal', 'wide', 'third', 'half', 'full', or
+				numbers: false,
+				titleSelector: 'h1, h2, h3',
+				useTextContentForMissingTitles: false,
+				hideMissingTitles: false,
+				markers: true,
+				custom: false,
+				themes: true,
+				themesPath: 'dist/theme/',
+				transitions: false,  // ['None', 'Fade', 'Slide']
+				openButton: true,
+				openSlideNumber: true,
+				keyboard: true,
+				sticky: false,
+				autoOpen: true,
+				delayInit: false,
+				openOnInit: false,
+				loadIcons: true
+			},
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu, RevealMath]
+		});
+	</script>
+
+</body>
+
+</html>
